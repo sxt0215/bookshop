@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0; font-family:"微软雅黑",Arial, Helvetica, sans-serif;}
+body{background:#fafbfd;}
+ul li{ list-style:none;}
+.head{width:100%;height:50px;background:#018c15;}
+.head .logo{float:left;}
+.head .logo a{    margin: 8px 15px;      display: inline-block;}
+.head .logo a:hover{ cursor:pointer;}
+.head .logo a img{width:120px;height:32px;}
+.personal{float:right;}
+.personal .Infos_persos{    display: inline-block;    margin-top: 7px;margin-right: 10px;}
+.personal .Infos_persos img{height:36px;width:36px;margin:0 5px;float:left;}
+.personal .Infos_persos span{font-size:14px;color:#fff;line-height: 36px;}
+.personal .Infos_persos .pulldown{     background: url(../images/pulldown.png) no-repeat 3px 5px;    display: inline-block;    width: 20px;    height: 20px;}
+.personal .quit{font-size:14px;color:#fff;line-height: 36px;margin-right: 10px;}
+.personal .quit span{font-size:14px;color:#fff;line-height: 36px;}
+.personal .quit .cancel{background: url(../images/cancel.png) no-repeat 3px 5px;    display: inline-block;    width: 20px;    height: 20px;}
+
+.central_region{}
+.central_region .nav{ background:#fff;    width: 210px;    height: auto;    position: absolute;    left: 0;    bottom: 0;    top: 50px;    z-index: 99; border-right:1px solid #d7dce3;}
+.central_region .nav ul li{    height: 45px;    line-height: 45px; }
+.central_region .nav ul li a{ display: block; font-size:14px;color:#191929; }
+.central_region .nav ul li  .active{background:#e8f0ea; font-size:14px;color:#018c15; cursor:pointer;}
+.central_region .nav ul li a em{float:left;    margin-top: 10px;    padding: 0 5px;    margin-left: 10px;}
+.content_area{    margin-left: 210px;background:#fff;}
+.book_clicks{height:60px;line-height:60px;width:100%;font-size:16px; text-align:center;}
+
